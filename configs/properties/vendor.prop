@@ -78,6 +78,7 @@ persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 ro.apex.updatable=true
 ro.config.alarm_vol_steps=15
+ro.config.low_ram=false
 ro.config.ring_notification_vol_steps=15
 ro.config.vc_call_vol_steps=7
 ro.crypto.volume.filenames_mode=aes-256-cts
