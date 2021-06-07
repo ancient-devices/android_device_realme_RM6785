@@ -18,7 +18,6 @@ debug.sf.frame_rate_multiple_threshold=120
 debug.sf.high_fps_early_gl_phase_offset_ns=6500000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
 debug.sf.latch_unsignaled=1
-debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 drm.service.enabled=true
 init.userspace_reboot.is_supported=false
 persist.adb.nonblocking_ffs=0
