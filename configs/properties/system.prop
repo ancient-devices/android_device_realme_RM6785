@@ -9,6 +9,7 @@ persist.sys.nfc.disPowerSave=1
 qemu.hw.mainkeys=0
 ro.audio.silent=0
 ro.camera.sound.forced=0
+ro.control_privapp_permissions=log
 ro.iorapd.enable=false
 ro.kernel.zio=38,108,105,16
 ro.mediatek.wlan.p2p=1
