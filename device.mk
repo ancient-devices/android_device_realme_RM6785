@@ -238,6 +238,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk_platform.vendor \
     android.hardware.power@1.3.vendor
 
+# Prebuilt apps
+PRODUCT_PACKAGES += \
+    OpenCamera
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
