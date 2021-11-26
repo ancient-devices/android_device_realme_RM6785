@@ -20,6 +20,7 @@ ro.mtk_perf_simple_start_win=1
 ro.opengles.version=196610
 ro.product.cuptsm=OPPO|ESE|01|02
 ro.product.property_source_order=odm,vendor,product,system
+ro.support_one_handed_mode=true
 ro.sys.usb.bicr=no
 ro.sys.usb.charging.only=yes
 ro.sys.usb.mtp.whql.enable=0
