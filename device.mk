@@ -260,7 +260,7 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt apps
 PRODUCT_PACKAGES += \
-    OpenCamera
+    CameraGO
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
@@ -302,7 +302,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeParts \
     RealmeDirac
-    
+
 # Telephony
 PRODUCT_BOOT_JARS += \
     mediatek-common \
