@@ -1,5 +1,6 @@
 Build.BRAND=MTK
 mediatek.wlan.ctia=0
+persist.sys.binary_xml=false
 persist.sys.nfc.aid_overflow=true
 persist.sys.nfc.antenna_area=bottom
 persist.sys.nfc.default=on
