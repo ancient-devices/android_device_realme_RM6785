@@ -135,8 +135,8 @@ include device/mediatek/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# SPL
-VENDOR_SECURITY_PATCH := 2021-11-05
+# Security patch level
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Wifi
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
