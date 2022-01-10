@@ -88,8 +88,8 @@
     <!-- #ifdef ODM_HQ_EDIT -->
     <!-- #gehuaishu@ODM_HQ.AD.performance, 2020/01/07, add for improve performance -->
     <scenario powerhint="INTERACTION">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1866000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1866000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
         <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
         <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
