@@ -1,0 +1,2 @@
+# Misc
+/system/bin/perf_profile\.sh	u:object_r:perf_profile_exec:s0

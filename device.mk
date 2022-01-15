@@ -129,7 +129,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.mt6785 \
     init.target.rc \
-    parts.rc
+    parts.rc \
+    perf_profile.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \
