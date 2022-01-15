@@ -134,7 +134,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.mt6785 \
-    ueventd.oplus.rc
+    ueventd.oplus.rc \
+    perf_profile.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \

@@ -1,1 +1,5 @@
 allow init property_type:file { append create getattr map open read relabelto rename setattr unlink write };
+# Allow init to change owner of /sys/module/ged
+allow init sysfs_ged:file { w_file_perms setattr };
+# Allow init to change owner of /proc/cpufreq
+allow init proc_cpufreq:file { w_file_perms setattr };
