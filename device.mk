@@ -124,8 +124,9 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc \
     fstab.mt6785 \
+    init.target.rc \
+    parts.rc
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -278,6 +279,10 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
+# Parts
+PRODUCT_PACKAGES += \
+    RealmeParts
+    
 # Telephony
 PRODUCT_BOOT_JARS += \
     ImsServiceBase \
