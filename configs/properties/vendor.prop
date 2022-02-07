@@ -1,6 +1,12 @@
 # AAL
 ro.vendor.mtk_aal_support=1
 
+# Audio
+audio.adm.buffering.ms=3
+vendor.audio.adm.buffering.ms=3
+audio_hal.period_multiplier=2
+af.fast_track_multiplier=1
+
 # Camera
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
