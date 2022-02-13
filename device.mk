@@ -281,7 +281,8 @@ PRODUCT_PACKAGES += \
 
 # Parts
 PRODUCT_PACKAGES += \
-    RealmeParts
+    RealmeParts \
+    RealmeDirac
     
 # Telephony
 PRODUCT_BOOT_JARS += \
