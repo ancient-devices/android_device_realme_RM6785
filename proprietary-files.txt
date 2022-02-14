@@ -823,7 +823,6 @@ vendor/etc/nhw
 vendor/etc/partition_permission.sh
 vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
 vendor/etc/permissions/com.mediatek.hardware.vow.xml
-vendor/etc/power_app_cfg.xml
 vendor/etc/public.libraries.txt
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/mediaextractor.policy
