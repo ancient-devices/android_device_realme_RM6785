@@ -1,0 +1,22 @@
+[
+   {
+   "remote"       : "github",
+   "repository"   : "ImFlynnn/android_kernel_realme_mt6785",
+   "target_path"  : "kernel/realme/mt6785",
+   "branch"       : "master",
+   "clone-depth"  : "1"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "psionicprjkt/psionic-vendor_realme",
+   "target_path"  : "vendor/realme",
+   "branch"       : "psionic-12",
+   "clone-depth"  : "1"
+   },
+   {
+   "remote"       :"github",
+   "repository"   :"realme-mt6785-devs/proprietary_vendor_realme-firmware",
+   "target_path"  :"vendor/realme-firmware",
+   "branch"       :"master"
+   }
+]
