@@ -9,6 +9,9 @@ vendor/lib/soundfx/libdirac.so
 -lib64/libaptX_encoder.so
 -lib64/libaptXHD_encoder.so
 
+# Charger - From From Redmi/begonia/begonia:11/RP1A.200720.011/21.4.28:user/release-keys
+bin/charger:bin/chargeonlymode|bb74c36cee72b1f2e2c8090eb6f21352eba8e83f
+
 # EngineerMode
 -priv-app/EngineerMode/EngineerMode.apk
 -lib/libem_support_jni.so

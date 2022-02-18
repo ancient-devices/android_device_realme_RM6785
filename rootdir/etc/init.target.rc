@@ -66,6 +66,13 @@ on property:ro.boot.product.hardware.sku=nfc
     start secure_element_hal_service
     start vendor.nfc_hal_service
 
+service charger /bin/chargeonlymode
+    class charger
+    critical
+    #seclabel u:r:charger:s0
+    group system graphics
+    seclabel u:r:healthd:s0
+
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     disabled
