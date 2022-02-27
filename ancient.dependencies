@@ -8,9 +8,9 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "psionicprjkt/psionic-vendor_realme",
+   "repository"   : "ImFlynnn/proprietary_vendor_realme_RM6785",
    "target_path"  : "vendor/realme",
-   "branch"       : "psionic-12",
+   "branch"       : "master",
    "clone-depth"  : "1"
    },
    {
