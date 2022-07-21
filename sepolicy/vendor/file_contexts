@@ -21,3 +21,6 @@
 
 # Init services
 /(vendor|system/vendor)/bin/init_RM6785_vendor   u:object_r:init_RM6785_exec:s0
+
+# Battery
+/sys/devices/platform/charger/power_supply/battery/present u:object_r:sysfs_batteryinfo:s0
