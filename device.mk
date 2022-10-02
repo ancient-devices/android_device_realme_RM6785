@@ -238,10 +238,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
 
-# Properties
--include $(LOCAL_PATH)/properties.mk
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
@@ -283,7 +279,7 @@ PRODUCT_BOOT_JARS += \
     mediatek-ims-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common \
+    mediatek-telephony-common
 
 PRODUCT_PACKAGES += \
     libshim_vtservice
@@ -296,10 +292,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0.vendor
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
