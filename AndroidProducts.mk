@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_RM6785.mk
+    $(LOCAL_DIR)/ancient_RM6785.mk
