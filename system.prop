@@ -6,3 +6,4 @@ persist.dbg.volte_avail_ovr=1
 
 # SkiaGL
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
