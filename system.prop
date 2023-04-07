@@ -4,6 +4,9 @@ dalvik.vm.dex2oat64.enabled=true
 # IMS
 persist.dbg.volte_avail_ovr=1
 
+# Radio
+persist.sys.radio.force_lte_ca=true
+
 # SkiaGL
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
